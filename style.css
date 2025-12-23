@@ -1,0 +1,79 @@
+h4 {background-color: rgb(209, 209, 245);
+     padding: 10px;
+     border-radius: 8px;
+}
+video {
+    transform: rotate(90deg);   /* Portrait to landscape */
+    transform: rotate(180deg);  /* Upside down */
+    transform: rotate(270deg);  /* Opposite portrait */
+}
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+body {
+    background-color: #f5f5f5;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Profile image */
+.profile-img {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h1 {
+    letter-spacing: 1px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Videos & audio */
+video, audio {
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+/* Form */
+textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0f6adf;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
